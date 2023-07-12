@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+
+<body>
+    <div class="todoappImg">
+        <h1>todo <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
+                alt="Logo Typescript" style="width: 60px; height: auto;"></h1>
+
+    </div>
+    <div class="todoapp">
+        <input class="text-task" type="text" placeholder="¿Qué quieres hacer?">
+        <ul class="task-list" style="position: relative;"></ul>
+        <footer class="footer">
+            <span class="todo-count">0 tareas pendientes</span>
+            <ul class="filters">
+                <li class="all selected">All</li>
+                <li class="active">Active</li>
+                <li class="liCompleted">Completed</li>
+            </ul>
+            <button class="clear-completed">Borrar completados</button>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
