@@ -8,4 +8,4 @@ Proyecto de un Todo App utilizando Typescript
 
 ### Link to the page
 
-- Site URL: [Todo App]([https://epic-movie.vercel.app/](https://andres-todoapp-typescript.vercel.app/)https://andres-todoapp-typescript.vercel.app/)
+- Site URL: [Todo App]([https://andres-todoapp-typescript.vercel.app/)
